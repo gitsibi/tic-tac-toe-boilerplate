@@ -16,6 +16,12 @@ h1{
     -webkit-text-stroke: 5px white; 
 }
 
+h2{
+    justify-content: center;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+}
+
 .flex{
     display: flex;
 }
@@ -30,7 +36,7 @@ h1{
 .container,.game-display, #result{
     flex-direction: column;
 } 
-.box{
+.cube{
     height: 100px;
     width: 100px;
     margin: 5px;
