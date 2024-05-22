@@ -39,8 +39,8 @@ function outputFun(msg) {
 }
 
 function wonFunction() {
-  for (let el of winArray) {
-    let [n1, n2, n3] = [arr[el[0]], arr[el[1]], arr[el[2]]];
+  for (let i of winArray) {
+    let [n1, n2, n3] = [arr[i[0]], arr[i[1]], arr[i[2]]];
     if (n1 === n2 && n2 === n3 && n1 !== undefined) {
       outputFun(n1 ? "O" : "X");
       return;
